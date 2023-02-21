@@ -307,8 +307,18 @@ async def _(event):
                     await sedthon(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
-✪ (@{username}) done... 
-✪ By @BHthon - @myAbnBashar
+●━━━━━━━━●
+┏━━━━━┓
+- By ↣ @HLLAM
+┗━━━━━┛
+┏━━━━━┓
+↣ (@{username})
+┗━━━━━┛
+┏━━━━━┓
+- By ↣@H_P_K 
+┗━━━━━┛
+●━━━━━━━━●
+
     ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -321,7 +331,7 @@ async def _(event):
                     if "A wait of" in str(eee):
                         break
                     else:
-                        await sedthon.send_message(event.chat.id, "سأستمر بلفحص !")
+                        await sedthon.send_message(event.chat.id, " اجاك متاح !")
             else:
                 pass
             trys += 1
@@ -329,7 +339,7 @@ async def _(event):
         isclaim.clear()
         isclaim.append("off")
         trys = ""
-        await event.client.send_message(event.chat_id, "تم الانتهاء من الفحص")
+        await event.client.send_message(event.chat_id, " انتهى الصيد !")
     else:
         await event.edit("يجب الدفع لاستعمال هذا الامر !")
 
@@ -368,8 +378,18 @@ async def _(event):
                         await sedthon(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
-✪ (@{username}) done...
-✪ By @BHthon - @myAbnBashar
+●━━━━━━━━●
+┏━━━━━┓
+- By ↣ @HLLAM
+┗━━━━━┛
+┏━━━━━┓
+↣ (@{username})
+┗━━━━━┛
+┏━━━━━┓
+- By ↣@H_P_K 
+┗━━━━━┛
+●━━━━━━━━●
+
     ''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -400,8 +420,18 @@ async def _(event):
                 await sedthon(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
-✪ (@{username}) The catch was done 
-✪ By @BHthon - @myAbnBashar
+●━━━━━━━━●
+┏━━━━━┓
+- By ↣ @HLLAM
+┗━━━━━┛
+┏━━━━━┓
+↣ (@{username})
+┗━━━━━┛
+┏━━━━━┓
+- By ↣@H_P_K 
+┗━━━━━┛
+●━━━━━━━━●
+
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
                 await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
