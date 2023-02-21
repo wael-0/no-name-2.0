@@ -200,7 +200,7 @@ async def _(event):
     time_name.append("off")
     await sedthon(
         functions.account.UpdateProfileRequest(
-            first_name=" - @BHthon"
+            first_name=" - @HLLAM"
         )
     )
 
@@ -591,11 +591,10 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-𝐰𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐜𝐡𝐞𝐜𝐤𝐞𝐫 𝐬𝐨𝐮𝐫𝐜𝐞 𝐛𝐡𝐭𝐡𝐨𝐧
-𝐝𝐞𝐯 : @myAbnBashar 
-𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @bhthon
-𝐫𝐞𝐥𝐞𝐚𝐬𝐞 : 1.5
-𝐥𝐞𝐭 𝐭𝐡𝐞𝐦 𝐥𝐚𝐮𝐠𝐡, 𝐭𝐡𝐞𝐲 𝐰𝐢𝐥𝐥 𝐧𝐨𝐭 𝐫𝐞𝐚𝐜𝐡 𝐦𝐞
+ 𝐜𝐡𝐞𝐜𝐤𝐞𝐫 𝐬𝐨𝐮𝐫𝐜𝐞 @HLLaM
+𝐝𝐞𝐯 : @HLLAM 
+𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @H_P_K
+𝐫𝐞𝐥𝐞𝐚𝐬𝐞 : 1.9
 
 ''')
 
@@ -690,7 +689,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @myAbnBashar
+      - @HLLAM
 ''', reply_to=event)
 
 
@@ -699,7 +698,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @myAbnBashar
+      - @HLLAM
 ''', reply_to=event)
 
 
@@ -708,7 +707,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @myAbnBashar
+      - @HLLAM
 ''', reply_to=event)
 
 
@@ -717,7 +716,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @myAbnBashar
+      - @HLLAM
 ''', reply_to=event)
 
 
@@ -729,7 +728,7 @@ async def _(event):
     res = (end - start).microseconds / 1000
     await event.edit(f"""
 `-- -- -- -- -- -- -- -- -- --`
-- @myAbnBashar - @bhthon
+- @HLLAM - @H_P_K
 - البنك : `{res}`
 `-- -- -- -- -- -- -- -- -- --`"""
                      )
@@ -805,12 +804,12 @@ async def _(event):
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 17])
 
-ownerhson_id = 5693914475
+ownerhson_id = 1041483862
 @sedthon.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('اهلا مطوري ابن بشار - @myAbnBashar')
+        order = await event.reply('●━━━━━━ @HLLAM ━━━━━━●')
 
 
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.ورود"))
