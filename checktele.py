@@ -325,7 +325,7 @@ async def _(event):
                     with open("banned.txt", "a") as f:
                         f.write(f"\n{username}")
                 except Exception as eee:
-                    await sedthon.send_message(event.chat_id, f'''error with {username}
+                    await sedthon.send_message(event.chat_id, f'''متاح ~~> {username}
     error :
     {str(eee)}''')
                     if "A wait of" in str(eee):
